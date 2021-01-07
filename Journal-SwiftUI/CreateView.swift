@@ -13,7 +13,7 @@ struct CreateView: View {
     var body: some View {
         VStack {
             TextField("Title", text: $newTitle)
-//            TextView(text: $newBody, textFieldStyle(UIFont.TextStyle.body))
+            TextView()
         }
     }
 }
