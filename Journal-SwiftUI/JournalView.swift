@@ -12,15 +12,23 @@ struct JournalView: View {
     var body: some View {
         List {
             ForEach(entries) { entry in
-                EntryView(entry: entry)
+                NavigationLink(destination: CreateView()) {
+                    EntryView(entry: entry)
+                }
             }
         }
+        .navigationTitle("Journal")
+        .navigationBarItems(trailing: Button(action: {}) {
+            Image(systemName: "plus")
+        })
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
 //    static var entries = Entry.Entries
     static var previews: some View {
-        JournalView(entries: Entry.Entries)
+        NavigationView {
+            JournalView(entries: Entry.Entries)
+        }
     }
 }
