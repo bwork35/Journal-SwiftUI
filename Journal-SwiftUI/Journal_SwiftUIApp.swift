@@ -11,7 +11,9 @@ import SwiftUI
 struct Journal_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            JournalView(entries: Entry.Entries)
+            NavigationView {
+                JournalView(entries: Entry.Entries)
+            }
         }
     }
 }
