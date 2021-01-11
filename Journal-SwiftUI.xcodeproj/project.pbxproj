@@ -17,6 +17,7 @@
 		9351CFC125A2B18C0068E7B9 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351CFC025A2B18C0068E7B9 /* Entry.swift */; };
 		9375A4E625A6C42500EBDCCD /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375A4E525A6C42500EBDCCD /* CreateView.swift */; };
 		9375A4EE25A6C6AC00EBDCCD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375A4ED25A6C6AC00EBDCCD /* TextView.swift */; };
+		9375A51725ABE3CC00EBDCCD /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375A51625ABE3CC00EBDCCD /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9351CFC025A2B18C0068E7B9 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		9375A4E525A6C42500EBDCCD /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		9375A4ED25A6C6AC00EBDCCD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		9375A51625ABE3CC00EBDCCD /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				9351CF8525A15A9A0068E7B9 /* JournalView.swift */,
 				9351CFB425A2AF040068E7B9 /* EntryView.swift */,
 				9375A4E525A6C42500EBDCCD /* CreateView.swift */,
+				9375A51625ABE3CC00EBDCCD /* EditView.swift */,
 				9351CF8725A15AA00068E7B9 /* Assets.xcassets */,
 				9351CF8C25A15AA00068E7B9 /* Info.plist */,
 				9351CF8925A15AA00068E7B9 /* Preview Content */,
@@ -275,6 +278,7 @@
 				9351CF8625A15A9A0068E7B9 /* JournalView.swift in Sources */,
 				9351CF8425A15A9A0068E7B9 /* Journal_SwiftUIApp.swift in Sources */,
 				9375A4EE25A6C6AC00EBDCCD /* TextView.swift in Sources */,
+				9375A51725ABE3CC00EBDCCD /* EditView.swift in Sources */,
 				9351CFB525A2AF040068E7B9 /* EntryView.swift in Sources */,
 				9375A4E625A6C42500EBDCCD /* CreateView.swift in Sources */,
 			);

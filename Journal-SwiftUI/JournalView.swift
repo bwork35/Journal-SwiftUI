@@ -12,15 +12,17 @@ struct JournalView: View {
     var body: some View {
         List {
             ForEach(entries) { entry in
-                NavigationLink(destination: CreateView()) {
+                NavigationLink(destination: EditView(entry: entry)) {
                     EntryView(entry: entry)
                 }
             }
         }
         .navigationTitle("Journal")
-        .navigationBarItems(trailing: Button(action: {}) {
-            Image(systemName: "plus")
-        })
+        .navigationBarItems(trailing: NavigationLink(
+            destination: CreateView(),
+            label: {
+                Image(systemName: "plus")
+        }))
     }
 }
 
