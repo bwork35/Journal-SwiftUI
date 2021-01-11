@@ -10,7 +10,7 @@ import SwiftUI
 struct TextView: UIViewRepresentable {
     typealias UIViewType = UITextView
     
-    var placeholderText: String = "Text View"
+    var placeholderText: String = "Body"
     @Binding var text: String 
 
     func makeUIView(context: Context) -> UITextView {
